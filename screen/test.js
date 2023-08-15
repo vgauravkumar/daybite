@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { Banner } from '../SubScreens/Banner'
 import { StatusBar } from '../SubScreens/StatusBar';
 import { FeedArea } from '../SubScreens/FeedArea';
 
@@ -7,8 +8,9 @@ const HomeScreen = () => {
         <View style={{
             flex: 1,
             backgroundColor: 'lightblue',
-            padding: 5
+            // padding: 5
         }}>
+            <Banner />
             <StatusBar />
             <FeedArea />
 

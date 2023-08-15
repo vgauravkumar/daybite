@@ -120,13 +120,13 @@ const FeedArea = () => {
     return (
         <View
             style={{
-                flex: 8,
+                // flex: 8,
                 // justifyContent: 'center',
                 alignItems: 'center',
                 backgroundColor: 'lightgreen',
             }}
         >
-            {data.map((d, i) => <PostTemplate data={d} />)}
+            {data.map((d, i) => <PostTemplate data={d} index={i} />)}
         </View>
     )
 };
