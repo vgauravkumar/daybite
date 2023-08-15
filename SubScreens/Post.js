@@ -1,4 +1,5 @@
 import { Text, View } from 'react-native';
+import { PostHeader } from '../Components/Post/Header';
 
 const PostTemplate = ({ data, index }) => {
     return (
@@ -15,8 +16,9 @@ const PostTemplate = ({ data, index }) => {
             borderColor: "black",
             borderWidth: 0.5
         }} key={{ index }}>
-            <Text>user_name: {data.user_name}</Text>
-            <Text>dish_name: {data.dish_name}</Text>
+            <PostHeader data={data} />
+            {/* Picture */}
+            {/* PostFooter */}
             <Text>likes: {data.likes}</Text>
             <Text>post_genesis: {data.post_genesis}</Text>
             <Text>pinned_comment: {data.pinned_comment}</Text>
