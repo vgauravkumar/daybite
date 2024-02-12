@@ -1,21 +1,23 @@
 import { Text, View, Image } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
-const PostHeader = ({ data }) => {
+const PostHeader = ({ data, flex }) => {
     return (
         <View
             style={{
                 alignItems: 'center',
                 justifyContent: 'center',
-                height: '10%',
+                // height: '10%',
+                flex: flex,
                 borderWidth: 0.5,
                 width: '100%',
                 padding: 10,
+                // backgroundColor: "lightgreen",
                 position: 'relative'
             }}
         >
             {/* <Text style={{ flex: 1, borderWidth: 0.5, margin: 5 }}>{"DP"}</Text> */}
-            <Image source={{ uri: `https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_1280.jpg` }} style={{
+            <Image source={{ uri: `https://images.unsplash.com/photo-1544435253-f0ead49638fa` }} style={{
                 width: 35,
                 height: 35,
                 position: 'absolute',

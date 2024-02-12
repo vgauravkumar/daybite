@@ -20,7 +20,7 @@ const Story = ({ image, index }) => {
                     justifyContent: 'center'
                 }}
             >
-                <Image source={{ uri: `https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051_1280.jpg` }} style={{
+                <Image source={{ uri: `https://images.unsplash.com/photo-1544435253-f0ead49638fa` }} style={{
                     width: 80,
                     height: 80,
                     borderRadius: 100

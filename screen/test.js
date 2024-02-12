@@ -8,7 +8,7 @@ const HomeScreen = () => {
         <View style={{
             flex: 1,
             backgroundColor: 'lightblue',
-            // padding: 5
+            padding: 15
         }}>
             <Banner />
             <StatusBar />
